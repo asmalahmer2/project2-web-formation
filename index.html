@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="./image/image-product-desktop.jpg" alt="" />
+      </div>
+
+      <div class="card">
+        <h4>PERFUME</h4>
+        <h1>
+          Gabrieul<br />
+          Essence Eau<br />
+          De Parfum
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+          facere voluptas quas dignissimos voluptatem veniam
+        </p>
+        <span>$149.44</span>
+        <slot><del>$169.99</del></slot>
+        <br />
+        <button>
+          <i class="fa-solid fa-cart-shopping"></i>
+          Add to card
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
